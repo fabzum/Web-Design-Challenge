@@ -1,0 +1,48 @@
+h2 {
+    padding-left: 0.5cm;
+    padding-right: 0.2cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+    color: white;
+    font-weight: bold;
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif    
+}
+
+h3 {
+   
+    color: cadetblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif    
+}
+
+h1 {
+   
+    color: cadetblue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif    
+}
+
+.footer {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: none repeat scroll 0 0 cadetblue;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 1600px;
+}
+
+
+
+@media (min-width: 576px) {
+    .navbar-toggler {
+        transform: translateX(50px) !important;
+    
+    }
+
+   
+
+}
+
+

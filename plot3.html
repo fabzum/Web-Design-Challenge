@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bootstrap Visualization Dashboard</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="container">
+          
+          <nav class="navbar navbar-expand-md navbar-light navbar-white bg-white">
+            <!-- brand -->
+            <div class="mx-auto order-0">
+              <a class="navbar-brand mx-auto" href="landing_page.html"><h2>Latitude<span></span></h2></a>
+            </div>
+            <!-- toggle button for navigations -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- second navigation -->
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="#">Plots</a>-->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item text-secondary" href="plot1.html">Max Temperature</a>
+                          <a class="dropdown-item text-secondary" href="plot2.html">Humidity</a>
+                          <a class="dropdown-item text-secondary" href="plot3.html">Cloudiness</a>
+                          <a class="dropdown-item text-secondary" href="plot4.html">Wind Speed</a>
+                        </div>
+                      </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comparisions.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
+        
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <div class="jumbotron bg-light">
+              <div class="jumbotron bg-white">
+                  <h3 class="display-5"><i style="font-size:48px;color:#259485"></i> Cloudiness</h3>
+                  <hr class="my-4">
+                  <p>
+                  <img src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness" style="margin:15px;" class="img-fluid" />
+                  <div style="font: size 15px"  >The figure is portraying the relationship betweeen the Latitude and the Cloudiness in percentage. It can be seen that there is absolutely no correlation between Latitude and the percentage of clouds.</div>
+                  </p>
+              </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4 col-sm-12">
+              <div class="jumbotron bg-light">
+              <div class="jumbotron bg-white">
+                  <h3 class="display-5">Visualizations</h3>
+                  <hr class="my-4">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-3 col-xs-3 mt-5 border border-info"><a href="plot3.html"><img src="Resources/assets/images/Fig3.png" alt="Plot#2" width="100%"></a></div>
+                      <div class="col-md-6 col-sm-3 col-xs-3 mt-5"><a href="plot1.html"><img src="Resources/assets/images/Fig1.png" alt="Plot#1" width="100%"></a></div>
+                      <div class="col-md-6 col-sm-3 col-xs-3 mt-5"><a href="plot2.html"><img src="Resources/assets/images/Fig2.png" alt="Plot#2" width="100%"></a></div>
+                      <div class="col-md-6 col-sm-3 col-xs-3 mt-5"><a href="plot4.html"><img src="Resources/assets/images/Fig4.png" alt="Plot#4" width="100%"></a></div>
+                    </div>
+              </div>
+              </div>
+
+            </div>
+            <footer class="footer mt-1 py-3 bg-info">
+                <div class="container">
+                  <span class="mb-0"> Copyright © Fabienne Zumbühl</span>
+                </div>
+              </footer>
+        </div>
+
+
+        </div>  
+          
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
