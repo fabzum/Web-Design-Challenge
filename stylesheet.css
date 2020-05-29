@@ -38,11 +38,13 @@ h1 {
 @media (min-width: 576px) {
     .navbar-toggler {
         transform: translateX(50px) !important;
-    
+        
     }
 
-   
-
+    .navbar-brand {
+        transform: translateX(50px) !important;
+        
+    }
 }
 
 
